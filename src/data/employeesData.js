@@ -1,0 +1,156 @@
+// COURSE DIVINE TECHNOLOGY PVT. LTD.
+// Exactly 10 Employee Accounts
+
+export const EMPLOYEES_DATA = [
+  {
+    id: "EMP01",
+    employeeId: "CDT-EMP-001",
+    name: "Rajesh Sharma",
+    username: "employee01",
+    password: "Emp@01Password",
+    email: "rajesh.sharma@coursedevinetechnology.com",
+    phone: "+91 98450 12341",
+    department: "Admissions & Counseling",
+    designation: "Senior Admissions Counselor",
+    status: "Active",
+    avatar: "RS",
+    joinedDate: "2024-01-15"
+  },
+  {
+    id: "EMP02",
+    employeeId: "CDT-EMP-002",
+    name: "Priya Nair",
+    username: "employee02",
+    password: "Emp@02Password",
+    email: "priya.nair@coursedevinetechnology.com",
+    phone: "+91 98450 12342",
+    department: "Admissions & Counseling",
+    designation: "Academic Consultant",
+    status: "Active",
+    avatar: "PN",
+    joinedDate: "2024-02-01"
+  },
+  {
+    id: "EMP03",
+    employeeId: "CDT-EMP-003",
+    name: "Anil Kumar",
+    username: "employee03",
+    password: "Emp@03Password",
+    email: "anil.kumar@coursedevinetechnology.com",
+    phone: "+91 98450 12343",
+    department: "Admissions & Counseling",
+    designation: "Student Enrollment Specialist",
+    status: "Active",
+    avatar: "AK",
+    joinedDate: "2024-02-15"
+  },
+  {
+    id: "EMP04",
+    employeeId: "CDT-EMP-004",
+    name: "Sneha Reddy",
+    username: "employee04",
+    password: "Emp@04Password",
+    email: "sneha.reddy@coursedevinetechnology.com",
+    phone: "+91 98450 12344",
+    department: "Admissions & Counseling",
+    designation: "Admissions Counselor",
+    status: "Active",
+    avatar: "SR",
+    joinedDate: "2024-03-01"
+  },
+  {
+    id: "EMP05",
+    employeeId: "CDT-EMP-005",
+    name: "Vikram Verma",
+    username: "employee05",
+    password: "Emp@05Password",
+    email: "vikram.verma@coursedevinetechnology.com",
+    phone: "+91 98450 12345",
+    department: "Admissions & Counseling",
+    designation: "Career Advisor",
+    status: "Active",
+    avatar: "VV",
+    joinedDate: "2024-03-15"
+  },
+  {
+    id: "EMP06",
+    employeeId: "CDT-EMP-006",
+    name: "Pooja Patel",
+    username: "employee06",
+    password: "Emp@06Password",
+    email: "pooja.patel@coursedevinetechnology.com",
+    phone: "+91 98450 12346",
+    department: "Admissions & Counseling",
+    designation: "Education Consultant",
+    status: "Active",
+    avatar: "PP",
+    joinedDate: "2024-04-01"
+  },
+  {
+    id: "EMP07",
+    employeeId: "CDT-EMP-007",
+    name: "Ramesh Rao",
+    username: "employee07",
+    password: "Emp@07Password",
+    email: "ramesh.rao@coursedevinetechnology.com",
+    phone: "+91 98450 12347",
+    department: "Admissions & Counseling",
+    designation: "Student Enrollment Specialist",
+    status: "Active",
+    avatar: "RR",
+    joinedDate: "2024-04-15"
+  },
+  {
+    id: "EMP08",
+    employeeId: "CDT-EMP-008",
+    name: "Deepika Iyer",
+    username: "employee08",
+    password: "Emp@08Password",
+    email: "deepika.iyer@coursedevinetechnology.com",
+    phone: "+91 98450 12348",
+    department: "Admissions & Counseling",
+    designation: "Admissions Counselor",
+    status: "Active",
+    avatar: "DI",
+    joinedDate: "2024-05-01"
+  },
+  {
+    id: "EMP09",
+    employeeId: "CDT-EMP-009",
+    name: "Kavita Joshi",
+    username: "employee09",
+    password: "Emp@09Password",
+    email: "kavita.joshi@coursedevinetechnology.com",
+    phone: "+91 98450 12349",
+    department: "Admissions & Counseling",
+    designation: "Career Advisor",
+    status: "Active",
+    avatar: "KJ",
+    joinedDate: "2024-05-15"
+  },
+  {
+    id: "EMP10",
+    employeeId: "CDT-EMP-010",
+    name: "Suresh Gupta",
+    username: "employee10",
+    password: "Emp@10Password",
+    email: "suresh.gupta@coursedevinetechnology.com",
+    phone: "+91 98450 12350",
+    department: "Admissions & Counseling",
+    designation: "Senior Academic Consultant",
+    status: "Active",
+    avatar: "SG",
+    joinedDate: "2024-06-01"
+  }
+];
+
+export const ADMIN_USER = {
+  id: "ADMIN01",
+  name: "Executive Management (Owner)",
+  username: "adminuser",
+  password: "adminpass",
+  email: "admin@coursedevinetechnology.com",
+  role: "ADMIN",
+  designation: "Company Administrator",
+  status: "Active"
+};

@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+}
+
+/* Custom corporate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Clean badge styling */
+.badge-new {
+  @apply bg-slate-100 text-slate-700 border border-slate-300;
+}
+.badge-unassigned {
+  @apply bg-amber-50 text-amber-700 border border-amber-200;
+}
+.badge-assigned {
+  @apply bg-blue-50 text-blue-700 border border-blue-200;
+}
+.badge-contacted {
+  @apply bg-indigo-50 text-indigo-700 border border-indigo-200;
+}
+.badge-interested {
+  @apply bg-emerald-50 text-emerald-700 border border-emerald-200;
+}
+.badge-followup {
+  @apply bg-amber-50 text-amber-800 border border-amber-300;
+}
+.badge-converted {
+  @apply bg-green-100 text-green-800 border border-green-300 font-semibold;
+}
+.badge-notinterested {
+  @apply bg-rose-50 text-rose-700 border border-rose-200;
+}
+
+/* Premium subtle animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.02);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.22;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.32;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float-slow {
+  animation: float 16s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 14s ease-in-out infinite;
+}
+
+.animate-slide-up {
+  animation: slideUpFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shimmer::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.25) 50%,
+    transparent 80%
+  );
+  transform: translateX(-100%) rotate(30deg);
+  transition: transform 0.75s ease;
+}
+
+.btn-shimmer:hover::after {
+  transform: translateX(100%) rotate(30deg);
+}
